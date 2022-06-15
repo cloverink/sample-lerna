@@ -6,6 +6,7 @@
     "documents/*"
   ],
   "scripts": {
+    "start": "lerna run start --scope example-app",
     "build": "lerna run build --scope helloworld"
   },
   "devDependencies": {
