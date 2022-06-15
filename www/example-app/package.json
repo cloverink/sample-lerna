@@ -1,9 +1,9 @@
 {
-  "name": "@sample-lerna/example-app",
+  "name": "@cloverink/sample-lerna-example-app",
   "version": "0.1.3",
   "private": true,
   "dependencies": {
-    "@sample-lerna/helloworld": "^1.0.3",
+    "@cloverink/sample-lerna-helloworld": "^1.0.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",

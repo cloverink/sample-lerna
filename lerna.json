@@ -1,10 +1,6 @@
 {
   "version": "independent",
   "npmClient": "npm",
-  "packages": [
-    "packages/*",
-    "documents/*"
-  ],
   "useWorkspaces": true,
   "command": {
     "publish": {

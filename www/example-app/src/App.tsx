@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { Hello } from '@sample-lerna/helloworld'
+import { Hello } from '@cloverink/sample-lerna-helloworld'
 
 function App() {
   return (

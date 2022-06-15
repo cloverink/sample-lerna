@@ -1,13 +1,13 @@
 {
-  "name": "sample-lerna",
+  "name": "@cloverink/sample-lerna",
   "private": true,
   "workspaces": [
     "packages/*",
-    "documents/*"
+    "www/*"
   ],
   "scripts": {
-    "start": "lerna run start --scope @sample-lerna/example-app",
-    "build": "lerna run build --scope @sample-lerna/helloworld",
+    "start": "lerna run start --scope @cloverink/sample-lerna-example-app",
+    "build": "lerna run build --scope @cloverink/sample-lerna-helloworld",
     "publish": "lerna publish --yes",
     "semantic-release": "semantic-release"
   },

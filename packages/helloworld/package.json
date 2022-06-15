@@ -1,5 +1,5 @@
 {
-  "name": "@sample-lerna/helloworld",
+  "name": "@cloverink/sample-lerna-helloworld",
   "version": "1.0.3",
   "license": "ISC",
   "main": "./lib/cjs/index.js",
