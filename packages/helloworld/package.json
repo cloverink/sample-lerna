@@ -1,6 +1,6 @@
 {
   "name": "@cloverink/sample-lerna-helloworld",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "ISC",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
