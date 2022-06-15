@@ -1,6 +1,6 @@
 {
   "name": "@cloverink/sample-lerna-helloworld",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -27,5 +27,7 @@
     "rollup-plugin-typescript2": "^0.32.1",
     "typescript": "^4.7.3"
   },
-  "gitHead": "5f3a4e212afd0fab1779c27c910c75128de9af91"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
