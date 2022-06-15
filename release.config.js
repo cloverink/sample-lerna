@@ -1,8 +1,6 @@
 /*eslint no-template-curly-in-string: "off" */
 module.exports = {
-  "branches": [
-    { "name": "main" }
-  ],
+  dryRun: false,
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
