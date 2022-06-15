@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { Hello, Foo } from 'helloworld'
+import { Hello } from '@sample-lerna/helloworld'
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
       <h1>Hello world</h1>
 
       <Hello name="wow"></Hello>
-      <Foo name="hi"></Foo>
     </div>
   );
 }
