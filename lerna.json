@@ -10,7 +10,7 @@
   },
   "ignoreChanges": [
     "ignored-file",
-    "**/CHANGELOG.md",
+    "**/*.md",
     "**/package.json",
     "**/package-lock.json"
   ]
