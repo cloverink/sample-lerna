@@ -1,5 +1,5 @@
 {
-  "name": "@cloverink/sample-lerna",
+  "name": "sample-lerna",
   "version": "1.19.0",
   "private": true,
   "workspaces": [
@@ -8,8 +8,12 @@
   ],
   "scripts": {
     "start": "lerna run start --scope @cloverink/sample-lerna-example-app",
-    "build": "lerna run build --scope @cloverink/sample-lerna-helloworld",
-    "lerna bootstrap": "lerna bootstrap",
+    "test": "lerna run test --scope @cloverink/sample-lerna",
+    "lint": "lerna run lint --scope @cloverink/sample-lerna",
+    "build": "npm run build:helloworld && npm run build:sample-lerna",
+    "build:helloworld": "lerna run build --scope @cloverink/sample-lerna-helloworld",
+    "build:sample-lerna": "lerna run build --scope @cloverink/sample-lerna",
+    "bootstrap": "lerna bootstrap",
     "publish:release": "lerna publish --conventional-commits --no-verify-access --yes"
   },
   "devDependencies": {

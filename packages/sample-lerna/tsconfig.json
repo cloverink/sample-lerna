@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "components/*": ["components/*"],
+    },
+    "target": "es5",
+    "module": "esnext",
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationDir": "types",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDeclarationOnly": true
+  },
+  "include": [
+    "src/*.js",
+    "src/*.ts*",
+    "__tests__",
+    "*.config.*",
+    ".eslintrc.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

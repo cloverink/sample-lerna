@@ -1,0 +1,30 @@
+{
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.nyc_output": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1e3a8a",
+    "titleBar.activeBackground": "#1e3a8a",
+    "titleBar.activeForeground": "#FFEBEE"
+  },
+  "css.validate": false,
+  "stylelint.enable": true,
+  "scss.validate": false,
+  "eslint.workingDirectories": [
+    {
+      "directory": "packages/sample-lerna",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "packages/helloworld",
+      "changeProcessCWD": true
+    }
+  ]
+}
