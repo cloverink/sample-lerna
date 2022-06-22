@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.7.0 (2022-06-22)
+
+
+### Features
+
+* set git user name/email ([2776b89](https://github.com/cloverink/sample-lerna/commit/2776b898f5874262107f138c1273f18d98f89365))
+
+
+
+
+
 # [1.6.0](https://github.com/cloverink/sample-lerna/compare/@cloverink/sample-lerna-helloworld@1.5.0...@cloverink/sample-lerna-helloworld@1.6.0) (2022-06-22)
 
 
