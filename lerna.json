@@ -5,12 +5,13 @@
   "command": {
     "publish": {
       "allowBranch": "main",
-      "message": "chore(release): Publish [skip ci]",
-      "ignoreChanges": [
-        "ignored-file",
-        "**/CHANGELOG.md",
-        "**/package.json"
-      ]
+      "message": "chore(release): Publish [skip ci]"
     }
-  }
+  },
+  "ignoreChanges": [
+    "ignored-file",
+    "**/CHANGELOG.md",
+    "**/package.json",
+    "**/package-lock.json"
+  ]
 }
