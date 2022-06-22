@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.10.0 (2022-06-22)
+
+
+### Features
+
+* test remove semantic from devdeps ([8099655](https://github.com/cloverink/sample-lerna/commit/8099655236a13d72aa7ace723cef925a2c814387))
+
+
+
+
+
 # 1.9.0 (2022-06-22)
 
 
