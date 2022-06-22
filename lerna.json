@@ -1,5 +1,5 @@
 {
-  "version": "1.28.0",
+  "version": "independent",
   "npmClient": "npm",
   "command": {
     "version": {
@@ -12,7 +12,7 @@
       ],
       "conventionalCommits": true,
       "commitHooks": false,
-      "message": "chore(release): Publish %s"
+      "message": "chore(release): Publish"
     }
   }
 }
