@@ -10,8 +10,8 @@
     "build:helloworld": "lerna run build --scope @cloverink/sample-lerna-helloworld",
     "build:sample-lerna": "lerna run build --scope @cloverink/sample-lerna",
     "bootstrap": "lerna bootstrap",
-    "version": "lerna version --conventional-commits --yes",
-    "publish:release": "lerna publish from-git --no-verify-access --yes"
+    "version": "lerna version --conventional-commits --no-changelog --yes",
+    "publish:release": "lerna publish from-git --yes"
   },
   "devDependencies": {
     "lerna": "^5.1.2"
