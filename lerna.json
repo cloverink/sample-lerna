@@ -3,7 +3,13 @@
   "npmClient": "npm",
   "command": {
     "version": {
-      "message": "chore(release): Publish %s [skip ci]"
+      "message": "chore(release): publish %s"
     }
-  }
+  },
+  "ignoreChanges": [
+    "ignored-file",
+    "**/*.md",
+    "**/__tests__/**",
+    "**/package.json"
+  ]
 }
