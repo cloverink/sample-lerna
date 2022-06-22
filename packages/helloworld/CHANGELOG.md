@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.16.0 (2022-06-22)
+
+
+### Features
+
+* move ignore change to publish ([03e8225](https://github.com/cloverink/sample-lerna/commit/03e822504df9280b0af4aba9e9df48c99fcbb4b7))
+
+
+
+
+
 # 1.15.0 (2022-06-22)
 
 
