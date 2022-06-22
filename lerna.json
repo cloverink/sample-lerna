@@ -1,23 +1,18 @@
 {
   "version": "independent",
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "command": {
     "version": {
       "preid": "next",
       "ignoreChanges": [
+        "ignored-file",
         "**/__tests__/**",
         "**/*.md",
         "lerna.json"
       ],
       "conventionalCommits": true,
       "commitHooks": false,
-      "message": "chore(release): publish %s :tada: :rocket:"
+      "message": "chore(release): Publish %s"
     }
-  },
-  "ignoreChanges": [
-    "ignored-file",
-    "**/*.md",
-    "**/__tests__/**",
-    "**/package.json"
-  ]
+  }
 }
