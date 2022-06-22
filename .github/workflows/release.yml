@@ -32,15 +32,17 @@ jobs:
           cache: 'npm'
 
       - name: install package
-        run: npm ci
-        run: npm run bootstrap
+        run: |
+          npm ci
+          npm run bootstrap
 
       - name: build
         run: npm run build
 
       - name: Publish
-        run: npm run publish:version
-        run: npm run publish:release
+        run: |
+          npm run publish:version
+          npm run publish:release
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
