@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/cloverink/sample-lerna/compare/@cloverink/sample-lerna-helloworld@1.4.0...@cloverink/sample-lerna-helloworld@1.5.0) (2022-06-22)
+
+
+### Features
+
+* set message ([c142d22](https://github.com/cloverink/sample-lerna/commit/c142d22f7af4a60b3a815faa2c6b9248a4d00a15))
+
+
+
+
+
 # [1.4.0](https://github.com/cloverink/sample-lerna/compare/@cloverink/sample-lerna-helloworld@1.3.0...@cloverink/sample-lerna-helloworld@1.4.0) (2022-06-22)
 
 
