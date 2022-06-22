@@ -4,12 +4,6 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "ignored-file",
-        "**/__tests__/**",
-        "**/*.md",
-        "lerna.json"
-      ],
       "message": "chore(release): Publish"
     }
   },
