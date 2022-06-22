@@ -9,8 +9,9 @@
   "scripts": {
     "start": "lerna run start --scope @cloverink/sample-lerna-example-app",
     "build": "lerna run build --scope @cloverink/sample-lerna-helloworld",
+    "lerna-version": "npx lerna version --conventional-commits --conventional-graduate --yes",
     "publish": "lerna publish --yes",
-    "semantic-release": "semantic-release -e semantic-release-monorepo"
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",

@@ -1,5 +1,5 @@
 {
-  "name": "@cloverink/sample-lerna-example-app",
+  "name": "sample-lerna-example-app",
   "version": "0.1.13",
   "private": true,
   "dependencies": {
