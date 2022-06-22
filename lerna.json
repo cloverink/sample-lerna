@@ -2,10 +2,19 @@
   "version": "independent",
   "npmClient": "npm",
   "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "command": {
     "publish": {
       "allowBranch": "main",
+      "conventionalCommits": true,
       "message": "chore(release): Publish [skip ci]"
     }
-  }
+  },
+  "ignoreChanges": [
+    "**/CHANGELOG.md",
+    "**/node_modules/**",
+    "**/package.json"
+  ]
 }
