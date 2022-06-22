@@ -17,6 +17,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Configure CI Git User
+        run: |
+          git config --global user.email cloverink@gmail.com
+          git config --global user.name cloverink-bot
+        env:
+          GH_TOKEN: ${{ env.GH_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
