@@ -2,7 +2,7 @@
   "name": "@cloverink/sample-lerna",
   "version": "1.1.0",
   "license": "ISC",
-  "description": "WWW-UI",
+  "description": "sample lerna package",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
