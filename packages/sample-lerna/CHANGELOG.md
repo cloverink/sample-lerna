@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.8.0 (2022-06-22)
+
+
+### Features
+
+* ignore package-lock.json in publish ([f18e2eb](https://github.com/cloverink/sample-lerna/commit/f18e2eba1d0a854abe8012ab46a6b6958ab04032))
+
+
+
+
+
 # 1.7.0 (2022-06-22)
 
 
