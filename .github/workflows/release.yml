@@ -41,7 +41,6 @@ jobs:
 
       - name: Publish
         run: |
-          npm run publish:version
           npm run publish:release
 
       - name: Semantic Release
