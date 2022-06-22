@@ -37,6 +37,7 @@ jobs:
 
       - name: Publish
         run: npm run publish:version
+        run: npm run publish:release
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
