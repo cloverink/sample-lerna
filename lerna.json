@@ -3,16 +3,13 @@
   "npmClient": "npm",
   "useWorkspaces": true,
   "command": {
-    "version": {
-      "preid": "next",
+    "publish": {
       "ignoreChanges": [
         "ignored-file",
         "**/__tests__/**",
         "**/*.md",
         "lerna.json"
       ],
-      "conventionalCommits": true,
-      "commitHooks": false,
       "message": "chore(release): Publish"
     }
   },
