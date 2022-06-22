@@ -5,6 +5,7 @@
   "command": {
     "publish": {
       "allowBranch": "main",
+      "verifyAccess": false,
       "message": "chore(release): Publish [skip ci]"
     }
   }
