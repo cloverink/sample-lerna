@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.14.0 (2022-06-22)
+
+
+### Features
+
+* workspace must on package.json ([981c773](https://github.com/cloverink/sample-lerna/commit/981c773c3907d7f2b31d38025f7796c509101590))
+
+
+
+
+
 # 1.13.0 (2022-06-22)
 
 
