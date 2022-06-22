@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.13.0 (2022-06-22)
+
+
+### Features
+
+* change only one repo ([381fb32](https://github.com/cloverink/sample-lerna/commit/381fb32501301367e198816a52d32f36da6dd889))
+
+
+
+
+
 # 1.12.0 (2022-06-22)
 
 
