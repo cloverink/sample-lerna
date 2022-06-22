@@ -1,6 +1,6 @@
 {
   "name": "sample-lerna",
-  "version": "1.33.0",
+  "version": "1.34.0",
   "private": true,
   "scripts": {
     "start": "lerna run start --scope @cloverink/sample-lerna-example-app",
