@@ -9,16 +9,11 @@
   "scripts": {
     "start": "lerna run start --scope @cloverink/sample-lerna-example-app",
     "build": "lerna run build --scope @cloverink/sample-lerna-helloworld",
+    "lerna bootstrap": "lerna bootstrap",
     "publish:release": "lerna publish --conventional-commits --no-verify-access --yes"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/commit-analyzer": "^9.0.2",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.4",
-    "@semantic-release/release-notes-generator": "^10.0.3",
-    "lerna": "5.1.2",
-    "semantic-release": "^19.0.3"
+    "lerna": "5.1.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
