@@ -1,6 +1,6 @@
 {
   "name": "sample-lerna-example-app",
-  "version": "0.1.13",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@cloverink/sample-lerna-helloworld": "^1.2.0",
