@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/cloverink/sample-lerna/compare/@cloverink/sample-lerna@1.2.1...@cloverink/sample-lerna@1.3.0) (2022-06-22)
+
+
+### Features
+
+* remove css ([976632a](https://github.com/cloverink/sample-lerna/commit/976632aa1b39245242c5b8e508838c0469420f41))
+
+
+
+
+
 # 1.2.0 (2022-06-22)
 
 
