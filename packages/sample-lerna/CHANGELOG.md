@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.6.0 (2022-06-22)
+
+
+### Features
+
+* ignore-file ([65ad2a5](https://github.com/cloverink/sample-lerna/commit/65ad2a52307f3283a0ea3db3b7a93d50bbb59a8e))
+
+
+
+
+
 # 1.5.0 (2022-06-22)
 
 
