@@ -3,7 +3,20 @@
   "npmClient": "npm",
   "command": {
     "version": {
-      "message": "chore(release): publish %s"
+      "preid": "next",
+      "ignoreChanges": [
+        "scripts/**",
+        ",**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md",
+        "lerna.json",
+        "api/**",
+        "apps/**"
+      ],
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "commitHooks": false,
+      "message": "chore(release): publish %s :tada: :rocket:"
     }
   },
   "ignoreChanges": [
