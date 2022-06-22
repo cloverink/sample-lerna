@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0 (2022-06-22)
+
+
+### Features
+
+* test semantic release require for ci ([7db220e](https://github.com/cloverink/sample-lerna/commit/7db220e9a4b4418cb2c7c278364102b5b95b913b))
+
+
+
+
+
 # 0.4.0 (2022-06-22)
 
 
