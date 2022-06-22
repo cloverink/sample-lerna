@@ -18,5 +18,7 @@ module.exports = {
           'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
       }
     ]
-  ]
+  ],
+  extends: "semantic-release-monorepo",
+  branches: ["main"]
 };
