@@ -4,11 +4,7 @@
   "useWorkspaces": true,
   "command": {
     "version": {
-      "message": "chore(release): publish %s [skip ci]"
-    },
-    "publish": {
-      "allowBranch": "main",
-      "message": "chore(release): Publish [skip ci]"
+      "message": "chore(release): Publish %v [skip ci]"
     }
   },
   "ignoreChanges": [
