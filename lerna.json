@@ -1,6 +1,7 @@
 {
   "version": "independent",
   "npmClient": "npm",
+  "useWorkspaces": true,
   "command": {
     "version": {
       "preid": "next",
@@ -14,5 +15,8 @@
       "commitHooks": false,
       "message": "chore(release): Publish"
     }
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
