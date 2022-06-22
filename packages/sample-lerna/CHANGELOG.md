@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/cloverink/sample-lerna/compare/@cloverink/sample-lerna@1.11.0...@cloverink/sample-lerna@1.12.0) (2022-06-22)
+
+
+### Features
+
+* xxx ([0fdb07e](https://github.com/cloverink/sample-lerna/commit/0fdb07e255a722b4cdea825f2b97d75c472f4572))
+
+
+
+
+
 # [1.11.0](https://github.com/cloverink/sample-lerna/compare/@cloverink/sample-lerna@1.10.0...@cloverink/sample-lerna@1.11.0) (2022-06-22)
 
 
