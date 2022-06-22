@@ -9,8 +9,7 @@
   "scripts": {
     "start": "lerna run start --scope @cloverink/sample-lerna-example-app",
     "build": "lerna run build --scope @cloverink/sample-lerna-helloworld",
-    "publish:release": "lerna publish --yes",
-    "semantic-release": "semantic-release"
+    "publish:release": "lerna publish --no-verify-access --yes"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
