@@ -20,7 +20,8 @@
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint . --max-warnings=0",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "@types/jest": "28.1.1",

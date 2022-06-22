@@ -4,6 +4,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): Publish"
     }
   },
