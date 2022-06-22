@@ -50,3 +50,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ env.GH_TOKEN }}
           NPM_TOKEN: ${{ env.GH_TOKEN }}
+
+      - name: Delete Package Versions
+        uses: actions/delete-package-versions@v2.0.1
