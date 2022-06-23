@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "lerna run start --scope @cloverink/sample-lerna-example-app",
-    "test": "lerna run test --scope @cloverink/sample-lerna",
-    "lint": "lerna run lint --scope @cloverink/sample-lerna",
+    "test": "lerna exec --scope @cloverink/sample-lerna -- npm run test",
+    "lint": "lerna exec --scope @cloverink/sample-lerna -- npm run lint",
     "build": "npm run build:helloworld && npm run build:sample-lerna",
     "build:helloworld": "lerna run build --scope @cloverink/sample-lerna-helloworld",
     "build:sample-lerna": "lerna run build --scope @cloverink/sample-lerna",
