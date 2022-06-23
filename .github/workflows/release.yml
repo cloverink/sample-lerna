@@ -29,7 +29,17 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
+
+      - name: 💵 Cache dependencies
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+
+      - name: ⬇️ Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
 
       - name: install package
         run: |
