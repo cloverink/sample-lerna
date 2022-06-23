@@ -33,7 +33,7 @@ jobs:
 
       - name: install package
         run: |
-          npm ci
+          npm install
 
       - name: lint
         run: |
