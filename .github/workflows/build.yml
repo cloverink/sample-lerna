@@ -1,0 +1,48 @@
+name: Build
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  NODE_VERSION: 16.15.1
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Configure CI Git User
+        run: |
+          git config --global user.email cloverink@gmail.com
+          git config --global user.name cloverink-bot
+        env:
+          GH_TOKEN: ${{ env.GH_TOKEN }}
+
+      - name: 🐢 Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: 💵 Cache dependencies
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: modules-${{ hashFiles('package-lock.json') }}
+
+      - name: ⬇️ Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: lint
+        run: npm run lint
+
+      - name: test
+        run: npm run test

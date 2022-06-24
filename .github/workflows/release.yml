@@ -26,7 +26,8 @@ jobs:
         env:
           GH_TOKEN: ${{ env.GH_TOKEN }}
 
-      - uses: actions/setup-node@v3
+      - name: 🐢 Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -34,7 +35,7 @@ jobs:
         id: cache
         uses: actions/cache@v3
         with:
-          path: ./node_modules
+          path: '**/node_modules'
           key: modules-${{ hashFiles('package-lock.json') }}
 
       - name: ⬇️ Install Dependencies
@@ -65,7 +66,8 @@ jobs:
         env:
           GH_TOKEN: ${{ env.GH_TOKEN }}
 
-      - uses: actions/setup-node@v3
+      - name: 🐢 Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
 
@@ -73,7 +75,7 @@ jobs:
         id: cache
         uses: actions/cache@v3
         with:
-          path: ./node_modules
+          path: '**/node_modules'
           key: modules-${{ hashFiles('package-lock.json') }}
 
       - name: ⬇️ Install Dependencies
