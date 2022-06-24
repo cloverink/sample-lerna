@@ -10,11 +10,6 @@ env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   NODE_VERSION: 16.15.1
 
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   test:
     name: Test
