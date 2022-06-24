@@ -1,5 +1,10 @@
 name: Release
 
+on:
+  pull_request:
+    branches:
+      - master
+
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   NODE_VERSION: 16.15.1
