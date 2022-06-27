@@ -18,7 +18,6 @@ module.exports = {
       {
         assets: [
           'docs/CHANGELOG.md',
-          "lerna.json",
           "package.json",
           "package-lock.json",
           "packages/*/package.json",
