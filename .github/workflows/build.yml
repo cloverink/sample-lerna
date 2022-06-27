@@ -13,7 +13,7 @@ jobs:
   cicd:
     name: CICD
     runs-on: ubuntu-latest
-    if: ${{ !startsWith(github.actor, 'renovate') || !startsWith(github.head_ref, 'ci') }}
+    if: ${{ !startsWith(github.head_ref, 'ci') }}
     steps:
       - uses: actions/checkout@v3
         with:
