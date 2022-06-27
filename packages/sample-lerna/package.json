@@ -1,6 +1,6 @@
 {
   "name": "@cloverink/sample-lerna",
-  "version": "1.40.0",
+  "version": "1.42.0",
   "description": "sample lerna package",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
