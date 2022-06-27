@@ -13,7 +13,8 @@
     "publish:release": "lerna publish --conventional-commits --no-changelog  --no-verify-access --yes"
   },
   "devDependencies": {
-    "lerna": "5.1.4"
+    "lerna": "5.1.4",
+    "semantic-release-lerna": "^0.6.1"
   },
   "publishConfig": {
     "access": "public",
