@@ -3,6 +3,7 @@ module.exports = {
   dryRun: false,
   plugins: [
     '@semantic-release/commit-analyzer',
+    'semantic-release-lerna',
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     '@semantic-release/github',
@@ -16,8 +17,12 @@ module.exports = {
       '@semantic-release/git',
       {
         assets: [
-          'package.json',
-          'docs/CHANGELOG.md'
+          'docs/CHANGELOG.md',
+          "lerna.json",
+          "package.json",
+          "package-lock.json",
+          "packages/*/package.json",
+          "packages/*/package-lock.json"
         ],
         message:
           'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
