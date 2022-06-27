@@ -4,6 +4,7 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
+      "conventionalCommits": true,
       "ignoreChanges": [
         "ignored-file",
         "*.md",
